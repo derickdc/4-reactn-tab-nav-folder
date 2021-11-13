@@ -1,25 +1,9 @@
 # reactn-tab-nav-folder
-ReadMe – React Native / React Mobile:
-We created navigation with this application through different ways: Stack, Drawer, and Tab navigation:
-Stack is the way of creating buttons (button based) where we navigate between screens where it manages the stack of screens
-Drawer is the way where we can slide or swipe of the side of the screen to navigate to different activity. It is where a user can navigate from one screen to another screen very easily by just pulling out the drawer. 
-Tab navigation is the way of creating a top or bottom bar navigation on the same screen of the activity.
+![image](https://user-images.githubusercontent.com/83717929/141600010-b5afbb65-737e-48ec-b647-90c133676a14.png)
+![image](https://user-images.githubusercontent.com/83717929/141600024-8d1af551-5c59-4caf-b09e-e9ea26ab0f45.png)
+![image](https://user-images.githubusercontent.com/83717929/141599977-28128574-77f3-4989-bbd7-5c9ddb3dc4a4.png)
 
-We implemented this by using NavigationContainer where we import install Navigation controller.
-User Guide:
-We need to download and install expo.
-npm install @react-navigation/native
-expo install react-native-screens react-native-safe-area-context
-npm install react-native-screens react-native-safe-area-context
-npm install @react-navigation/native-stack (with button based navigation)
-npm install @react-navigation/bottom-tabs (with bottom tab bar navigation)
-
-With App.js, its important to create a constant “const” method that will decide how the feature will look or present the feature. This can be accomplish by the following:
-•	For stack nav app: “create Stack = createNativeStackNavigator();”
-•	For tab nav app: “create Tab = createBottomTabNavigator();”
-•	For drawer app:  “const Drawer = createDrawerNavigator();”
-
-expo install @react-navigation/drawer (with drawer/swipe-slide navigation)
-Please make sure that you check the directory or files in the folder by typing “ls” in the View Terminal of Visual Studio Code. Then go inside of the direct folder by typing “cd (foldername)”.
-This application just runs in a local host by typing “npm start” or “expo start” in the terminal.
-By the time it initially runs in the browser, it will give you the option either to run as is with the web browser (right click and click “inspect”) where you can toggle device toolbar to full page or web mobile app-like emulator. It also give you the option to run in Mobile emulator like Android Mobile using Android Studio or iOS mobile application through Xcode/Swift emulator.  
+![screenshot1 tab-nav Home](https://user-images.githubusercontent.com/83717929/141599984-9a354537-0cfb-4d75-9fc4-c6841799d017.PNG)
+![screenshot2 tab-nav Settings](https://user-images.githubusercontent.com/83717929/141599987-7f2ececa-7964-4991-9829-dc8f3f01ec97.PNG)
+![screenshot3 tab-nav Listings](https://user-images.githubusercontent.com/83717929/141599988-39a82918-302f-4972-8167-7094b37bc3e7.PNG)
+![VS Code Folder tabnav Screenshot](https://user-images.githubusercontent.com/83717929/141599989-a1c29fe8-a28d-447c-8a3e-454dabfec031.PNG)
